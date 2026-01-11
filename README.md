@@ -1,4 +1,4 @@
-<img width="1225" height="1231" alt="Screenshot 2026-01-11 195938" src="https://github.com/user-attachments/assets/30f087ae-a5aa-46bc-8f0a-f364dd4d2fc2" /># 🌐 AI Network Optimizer
+# 🌐 AI Network Optimizer
 
 **Yapay Zeka Destekli Kendini Optimize Eden Ağ Sistemi**
 
@@ -237,6 +237,8 @@ Modem kaynaklı performans düşüşü tespit edildiğinde sistem turuncu/sarı 
 
 ---
 
+<img width="2167" height="1328" alt="Screenshot 2026-01-11 201015" src="https://github.com/user-attachments/assets/1bab623d-e121-4a6c-80d1-3ecf4389453f" />
+
 ### 🔴 Altyapı Arızası - Kritik Durum
 Fiber hasar veya altyapı kaynaklı ciddi problemlerde sistem kırmızı alarm verir. Otomatik olarak teknik ekip bilgilendirilir ve iş emri oluşturulur.
 
@@ -254,6 +256,8 @@ Fiber hasar veya altyapı kaynaklı ciddi problemlerde sistem kırmızı alarm v
 
 ---
 
+<img width="2105" height="1350" alt="Screenshot 2026-01-11 201043" src="https://github.com/user-attachments/assets/1ffa0cb9-1625-4f46-a358-66d7c003abf2" />
+
 ### ⚫ Kesinti - Sorun Tespit Edildi
 Ağ tamamen veya neredeyse tamamen kullanılamaz durumda. Sistem acil müdahale gerektiğini bildirir.
 
@@ -267,6 +271,8 @@ Ağ tamamen veya neredeyse tamamen kullanılamaz durumda. Sistem acil müdahale 
 
 ---
 
+<img width="2233" height="1325" alt="Screenshot 2026-01-11 201026" src="https://github.com/user-attachments/assets/a13c1cbf-3bdf-44ae-8bdf-ae469611d5f8" />
+
 ### 🟣 Ağ Yoğunluğu - Trafik Fazla
 Yoğun kullanım saatlerinde ağda meydana gelen performans düşüşü. Geçici bir durum olduğu vurgulanır.
 
@@ -279,6 +285,8 @@ Yoğun kullanım saatlerinde ağda meydana gelen performans düşüşü. Geçici
 - ⏰ Öneri: Yoğun saatler dışında daha iyi performans alabilirsiniz
 
 ---
+
+<img width="2152" height="1299" alt="Screenshot 2026-01-11 201003" src="https://github.com/user-attachments/assets/892d3a52-87b2-4949-80a8-094ae27f2a96" />
 
 ### 🤖 AI Tanı Sistemi - Çalışma Anı
 Gemini 1.5 Flash AI modeli ağ metriklerini analiz ederken gösterilen ara ekran. Kullanıcı AI'nın gerçek zamanlı çalıştığını görebilir ve sistemin arka planda akıllı analiz yaptığını anlayabilir.
