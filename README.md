@@ -4,7 +4,6 @@
 
 Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan performans problemlerini kullanıcıyı etkilemeden önce tespit etmeyi amaçlayan, yapay zekâ destekli proaktif bir AIOps sistemidir.
 
-![AI Network Optimizer Banner](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-blue?style=for-the-badge&logo=google)
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-teal?style=for-the-badge&logo=fastapi)
@@ -67,8 +66,8 @@ Bu yapı, gerçek bir ağ izleme sisteminin **sadeleştirilmiş bir temsilidir**
 
 ## ✨ Özellikler
 
-### 🤖 AI Tanı Sistemi
-- **Gemini 1.5 Flash** ile desteklenen akıllı ağ analizi
+### AI Tanı Sistemi
+- Yapay zeka destekli akıllı ağ analizi
 - Problemin kaynağını otomatik tespit (modem, altyapı, cihaz)
 - Türkçe dilinde anlaşılır açıklamalar
 
@@ -112,22 +111,18 @@ Uygulama, farklı ağ problemlerini temsil eden ön tanımlı senaryolar içerir
 ## 🛠️ Teknoloji Stack
 
 ### Backend
-```
-🐍 Python 3.10+          - Core language
-⚡ FastAPI               - Modern, hızlı web framework
-🤖 Gemini 1.5 Flash      - Google AI model
-🦄 Uvicorn               - ASGI server
-🔐 python-dotenv         - Environment management
-```
+- Python 3.10+ - Core language
+- FastAPI - Modern web framework
+- Google AI API - Yapay zeka entegrasyonu
+- Uvicorn - ASGI server
+- python-dotenv - Environment management
 
 ### Frontend
-```
-⚛️ React 18              - UI framework
-⚡ Vite                  - Build tool & dev server
-🎨 Tailwind CSS          - Utility-first styling
-🎭 Lucide React          - Icon library
-📡 Axios                 - HTTP client
-```
+- React 18 - UI framework
+- Vite - Build tool & dev server
+- Tailwind CSS - Utility-first styling
+- Lucide React - Icon library
+- Axios - HTTP client
 
 ---
 
@@ -136,7 +131,7 @@ Uygulama, farklı ağ problemlerini temsil eden ön tanımlı senaryolar içerir
 ### Gereksinimler
 - Python 3.10 veya üzeri
 - Node.js 18 veya üzeri
-- Gemini API Key ([buradan alın](https://aistudio.google.com/app/apikey))
+- Google AI API Key ([buradan alın](https://aistudio.google.com/app/apikey))
 
 ### 1️⃣ Repository'yi Klonlayın
 ```bash
@@ -158,7 +153,7 @@ pip install -r requirements.txt
 
 # .env dosyası oluştur
 copy .env.example .env
-# .env dosyasını düzenleyin ve GEMINI_API_KEY'inizi ekleyin
+# .env dosyasını düzenleyin ve AI_API_KEY'inizi ekleyin
 ```
 
 ### 3️⃣ Frontend Kurulumu
@@ -288,30 +283,17 @@ Yoğun kullanım saatlerinde ağda meydana gelen performans düşüşü. Geçici
 
 <img width="2152" height="1299" alt="Screenshot 2026-01-11 201003" src="https://github.com/user-attachments/assets/892d3a52-87b2-4949-80a8-094ae27f2a96" />
 
-### 🤖 AI Tanı Sistemi - Çalışma Anı
-Gemini 1.5 Flash AI modeli ağ metriklerini analiz ederken gösterilen ara ekran. Kullanıcı AI'nın gerçek zamanlı çalıştığını görebilir ve sistemin arka planda akıllı analiz yaptığını anlayabilir.
+### AI Tanı Sistemi - Çalışma Anı
+Yapay zeka modeli ağ metriklerini analiz ederken gösterilen ara ekran. Sistemin arka planda akıllı analiz yaptığını gösterir.
 
 **AI Analiz Süreci:**
-1. ⚙️ Ağ metrikleri toplanıyor
-2. 🤖 Veriler Gemini AI'a gönderiliyor
-3. 🧠 Akıllı analiz yapılıyor (problem kaynağı belirleniyor)
-4. 📊 Sonuçlar yorumlanıyor
-5. ✅ Uygulanabilir öneriler oluşturuluyor
+1. Ağ metrikleri toplanıyor
+2. Veriler AI servisine gönderiliyor
+3. Akıllı analiz yapılıyor (problem kaynağı belirleniyor)
+4. Sonuçlar yorumlanıyor
+5. Uygulanabilir öneriler oluşturuluyor
 
-**Görülen Mesaj:**
-```
-⚠️ AI servisi şu anda yanıt veremiyor.
-
-Metrik Özeti:
-- İndirme: 14.74 Mbps
-- Yükleme: 5.4 Mbps
-- Ping: 78.6 ms
-- Paket Kaybı: %4.56
-
-Hata: 404 NOT_FOUND: models/gemini-1.5-flash is not found...
-```
-
-> 💡 **Not:** Demo ortamında bazen AI servis hatası simüle edilir. Bu, gerçek sistemlerde hata yönetiminin nasıl olacağını gösterir.
+> **Not:** Demo ortamında bazen AI servis hatası simüle edilir. Bu, gerçek sistemlerde hata yönetiminin nasıl olacağını gösterir.
 
 ---
 
@@ -486,35 +468,13 @@ Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
 
 ---
 
-## 📄 Lisans
+## Lisans
 
 Bu proje açık kaynak kodludur ve eğitim amaçlı kullanım için tasarlanmıştır.
 
 ---
 
-## 📞 İletişim
-
-**Proje Sahibi:** [@emregumusai](https://github.com/emregumusai)
-
-**Repository:** [AI-Network-Optimizer](https://github.com/emregumusai/AI-Network-Optimizer)
-
----
-
-## 🙏 Teşekkürler
-
-- 🤖 **Google Gemini AI** - Akıllı ağ analizi için
-- ⚡ **FastAPI** - Modern backend framework
-- ⚛️ **React & Vite** - Hızlı ve modern frontend
-- 🎨 **Tailwind CSS** - Güzel tasarım sistemi
-- 🎭 **Lucide Icons** - Mükemmel ikon seti
-
----
-
 <div align="center">
-
-**⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın! ⭐**
-
-Made with ❤️ by [Emre Gumus AI](https://github.com/emregumusai)
 
 **Demo Amaçlı - Tüm veriler simüle edilmiştir**
 
