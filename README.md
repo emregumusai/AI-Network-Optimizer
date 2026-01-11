@@ -1,4 +1,4 @@
-# 🌐 AI Network Optimizer
+<img width="1225" height="1231" alt="Screenshot 2026-01-11 195938" src="https://github.com/user-attachments/assets/30f087ae-a5aa-46bc-8f0a-f364dd4d2fc2" /># 🌐 AI Network Optimizer
 
 **Yapay Zeka Destekli Kendini Optimize Eden Ağ Sistemi**
 
@@ -203,6 +203,8 @@ Frontend şu adreste çalışacak: **http://localhost:5173**
 
 ## 📸 Ekran Görüntüleri
 
+<img width="1032" height="1274" alt="Screenshot 2026-01-11 200357" src="https://github.com/user-attachments/assets/40c0f7f5-7643-4e54-a947-955b1f50a77e" />
+
 ### 🟢 İnternet Normal - Sağlıklı Bağlantı
 Sistem optimal performans gösterdiğinde yeşil renkli göstergelerle sağlıklı durumu bildirir. AI tanı sistemi ağın mükemmel durumda olduğunu onaylar.
 
@@ -215,6 +217,8 @@ Sistem optimal performans gösterdiğinde yeşil renkli göstergelerle sağlıkl
 - 💡 Öneri: Herhangi bir işlem gerekmemektedir
 
 ---
+
+<img width="1012" height="1332" alt="Screenshot 2026-01-11 200933" src="https://github.com/user-attachments/assets/307f9fe9-c50e-461f-bf3d-9b1f6c84808a" />
 
 ### 🟠 Modem Sorunu - Dikkat Gerekli
 Modem kaynaklı performans düşüşü tespit edildiğinde sistem turuncu/sarı renkte uyarı verir. AI, sorunun evdeki cihazlardan kaynaklandığını tespit eder.
