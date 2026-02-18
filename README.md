@@ -1,119 +1,125 @@
-# 🌐 AI Network Optimizer
+[🇹🇷 Türkçe](README.tr.md) | 🇬🇧 English
 
-**Yapay Zeka Destekli Kendini Optimize Eden Ağ Sistemi**
+---
 
-Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan performans problemlerini kullanıcıyı etkilemeden önce tespit etmeyi amaçlayan, yapay zekâ destekli proaktif bir AIOps sistemidir.
+# 🌐 AI-Powered Self-Optimizing Network System
+
+**Proactive Network Performance Monitoring with AI Diagnostics**
+
+A proactive AIOps platform designed to detect and diagnose network performance issues in telecommunications access networks before they impact end users.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-teal?style=for-the-badge&logo=fastapi)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=for-the-badge)
 
 ---
 
-## 📋 İçindekiler
+## 📋 Table of Contents
 
-- [Amaç ve Problem Tanımı](#-amaç-ve-problem-tanımı)
-- [Sistem Mimarisi](#-sistem-mimarisi-ve-çalışma-mantığı)
-- [Özellikler](#-özellikler)
-- [Demo Senaryoları](#-demo-senaryoları)
-- [Teknoloji Stack](#-teknoloji-stack)
-- [Kurulum](#-kurulum)
-- [Kullanım](#-kullanım)
-- [Ekran Görüntüleri](#-ekran-görüntüleri)
-- [Demo Kapsamı ve Sınırlamalar](#-demo-kapsamı-ve-sınırlamalar)
-
----
-
-## 🎯 Amaç ve Problem Tanımı
-
-Günümüzde telekomünikasyon ağlarında yaşanan performans problemleri, çoğunlukla **kullanıcı şikâyetleri sonrasında** fark edilmekte ve bu durum reaktif bir arıza yönetim sürecine yol açmaktadır. Bu yaklaşım:
-
-- ⏱️ Ortalama çözüm süresinin uzamasına
-- 🚗 Gereksiz saha müdahalelerine  
-- 😞 Müşteri memnuniyetinin azalmasına neden olmaktadır
-
-**Proactive AI Network Agent** projesinin amacı:
-
-✅ Ağ performans verilerini sürekli izleyerek olasılıklı sorunları **kullanıcıyı etkilemeden önce tespit etmek**  
-✅ Bireysel ve kitlesel problemleri **ayırt edebilmek**  
-✅ Uygun operasyonel aksiyonların **proaktif olarak alınmasını sağlamak**
+- [Purpose & Problem Statement](#-purpose--problem-statement)
+- [System Architecture](#-system-architecture--workflow)
+- [Key Features](#-key-features)
+- [Demo Scenarios](#-demo-scenarios)
+- [Technology Stack](#-technology-stack)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
-## 🏗️ Sistem Mimarisi ve Çalışma Mantığı
+## 🎯 Purpose & Problem Statement
 
-AI Network Optimizer, ağ durumunu senaryo tabanlı olarak analiz eden, metrikleri yorumlayan ve sonuçları kullanıcıya sade bir arayüzle sunan bir demo sistemidir.
+In modern telecommunications networks, performance issues are often discovered **after user complaints**, leading to a reactive incident management process. This approach results in:
 
-### Sistem Akışı
+- ⏱️ Extended mean time to resolution (MTTR)
+- 🚗 Unnecessary field interventions  
+- 😞 Reduced customer satisfaction
+
+**Proactive AI Network Agent** aims to:
+
+✅ Continuously monitor network performance data to detect potential issues **before they impact users**  
+✅ Distinguish between **individual and mass-scale problems**  
+✅ Enable **proactive operational actions** to maintain service quality
+
+---
+
+## 🏗️ System Architecture & Workflow
+
+The AI Network Optimizer is a scenario-based demo system that analyzes network conditions, interprets metrics, and presents results through a clean user interface.
+
+### System Workflow
 
 ```
-1️⃣ Kullanıcı bir Demo Senaryosu seçer
+1️⃣ User selects a Demo Scenario
           ↓
-2️⃣ Seçilen senaryoya ait ağ metrikleri simüle edilir
+2️⃣ Network metrics for the selected scenario are simulated
           ↓
-3️⃣ Metrikler eşik değerlerle karşılaştırılır
+3️⃣ Metrics are compared against threshold values
           ↓
-4️⃣ Genel durum belirlenir (Sağlıklı / Dikkat / Kritik)
+4️⃣ Overall status is determined (Healthy / Warning / Critical)
           ↓
-5️⃣ AI Tanı Sistemi devreye girerek metinsel analiz üretir
+5️⃣ AI Diagnosis System analyzes and generates insights
           ↓
-6️⃣ Uygulanabilir Önerilen Aksiyonlar sunulur
+6️⃣ Actionable Recommendations are presented
 ```
 
-Bu yapı, gerçek bir ağ izleme sisteminin **sadeleştirilmiş bir temsilidir**.
+This structure represents a **simplified version** of a real network monitoring system.
 
 ---
 
-## ✨ Özellikler
+## ✨ Key Features
 
-### AI Tanı Sistemi
-- Yapay zeka destekli akıllı ağ analizi
-- Problemin kaynağını otomatik tespit (modem, altyapı, cihaz)
-- Türkçe dilinde anlaşılır açıklamalar
+### AI Diagnosis System
+- AI-powered intelligent network analysis
+- Automatic root cause detection (modem, infrastructure, device)
+- Clear explanations in natural language
 
-### 📊 Gerçek Zamanlı Metrikler
-- **İndirme Hızı** (Mbps) - Renk kodlu gösterim
-- **Yükleme Hızı** (Mbps) - Performans takibi
-- **Ping (Gecikme)** (ms) - Ağ gecikmesi ölçümü
-- **Paket Kaybı** (%) - Bağlantı kalitesi
+### 📊 Real-Time Metrics
+- **Download Speed** (Mbps) - Color-coded display
+- **Upload Speed** (Mbps) - Performance tracking
+- **Ping (Latency)** (ms) - Network delay measurement
+- **Packet Loss** (%) - Connection quality indicator
 
-### 🎭 6 Demo Senaryosu
-Her senaryo, farklı ağ problemlerini gerçekçi şekilde simüle eder
+### 🎭 6 Demo Scenarios
+Each scenario realistically simulates different network problems
 
-### 💡 Akıllı Öneriler
-- Soruna özel çözüm önerileri
-- Adım adım kullanıcı talimatları
-- Teknik ekip bilgilendirme sistemi
+### 💡 Smart Recommendations
+- Issue-specific solution suggestions
+- Step-by-step user instructions
+- Technical team notification system
 
-### 🔧 Otomatik İş Emri
-Altyapı sorunlarında sistem otomatik olarak:
-- Teknik ekibi bilgilendirir
-- İş emri oluşturur
-- Tahmini çözüm süresi bildirir
+### 🔧 Automated Work Orders
+For infrastructure issues, the system automatically:
+- Notifies technical teams
+- Creates work orders
+- Provides estimated resolution time
 
 ---
 
-## 🎬 Demo Senaryoları
+## 🎬 Demo Scenarios
 
-Uygulama, farklı ağ problemlerini temsil eden ön tanımlı senaryolar içerir. Her senaryo, farklı metrik değerleri ve farklı sonuç ekranları üretir.
+The application includes predefined scenarios representing different network problems. Each scenario generates different metric values and result screens.
 
-| Senaryo | Açıklama | İndirme | Yükleme | Ping | Paket Kaybı |
+| Scenario | Description | Download | Upload | Ping | Packet Loss |
 |---------|----------|---------|---------|------|-------------|
-| 🟢 **İnternet Normal** | Sağlıklı bağlantı, optimal performans | ~100 Mbps | ~50 Mbps | ~15 ms | ~0% |
-| 🟡 **Yavaş WiFi** | WiFi sinyali zayıf, düşük hızlar | ~25 Mbps | ~10 Mbps | ~45 ms | ~1% |
-| 🟠 **Modem Sorunu** | Modem kaynaklı performans düşüşü | ~15 Mbps | ~5 Mbps | ~80 ms | ~5% |
-| 🔴 **Altyapı Arızası** | Fiber hasar, ciddi bağlantı sorunu | ~5 Mbps | ~2 Mbps | ~200 ms | ~15% |
-| 🟣 **Ağ Yoğunluğu** | Yoğun kullanım saatleri | ~35 Mbps | ~15 Mbps | ~60 ms | ~3% |
-| ⚫ **Kesinti** | Tam veya neredeyse tam kesinti | <1 Mbps | <0.5 Mbps | >400 ms | >30% |
+| 🟢 **Normal Connection** | Healthy connection, optimal performance | ~100 Mbps | ~50 Mbps | ~15 ms | ~0% |
+| 🟡 **Slow WiFi** | Weak WiFi signal, reduced speeds | ~25 Mbps | ~10 Mbps | ~45 ms | ~1% |
+| 🟠 **Modem Issue** | Modem-related performance degradation | ~15 Mbps | ~5 Mbps | ~80 ms | ~5% |
+| 🔴 **Infrastructure Failure** | Fiber damage, serious connectivity issue | ~5 Mbps | ~2 Mbps | ~200 ms | ~15% |
+| 🟣 **Network Congestion** | Peak usage hours | ~35 Mbps | ~15 Mbps | ~60 ms | ~3% |
+| ⚫ **Outage** | Complete or near-complete outage | <1 Mbps | <0.5 Mbps | >400 ms | >30% |
 
 ---
 
-## 🛠️ Teknoloji Stack
+## 🛠️ Technology Stack
 
 ### Backend
 - Python 3.10+ - Core language
 - FastAPI - Modern web framework
-- Google AI API - Yapay zeka entegrasyonu
+- Google Gemini API - AI integration
 - Uvicorn - ASGI server
 - python-dotenv - Environment management
 
@@ -126,356 +132,364 @@ Uygulama, farklı ağ problemlerini temsil eden ön tanımlı senaryolar içerir
 
 ---
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-### Gereksinimler
-- Python 3.10 veya üzeri
-- Node.js 18 veya üzeri
-- Google AI API Key ([buradan alın](https://aistudio.google.com/app/apikey))
+### Requirements
+- Python 3.10 or higher
+- Node.js 18 or higher
+- Google AI API Key ([get it here](https://aistudio.google.com/app/apikey))
 
-### 1️⃣ Repository'yi Klonlayın
+### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/emregumusai/AI-Network-Optimizer.git
 cd AI-Network-Optimizer
 ```
 
-### 2️⃣ Backend Kurulumu
+### 2️⃣ Backend Setup
 ```bash
 cd backend
 
-# Virtual environment oluştur (opsiyonel ama önerilen)
+# Create virtual environment (optional but recommended)
 python -m venv venv
 venv\Scripts\activate  # Windows
 # source venv/bin/activate  # Linux/Mac
 
-# Bağımlılıkları yükle
+# Install dependencies
 pip install -r requirements.txt
 
-# .env dosyası oluştur
+# Create .env file
 copy .env.example .env
-# .env dosyasını düzenleyin ve AI_API_KEY'inizi ekleyin
+# Edit the .env file and add your GEMINI_API_KEY
 ```
 
-### 3️⃣ Frontend Kurulumu
+### 3️⃣ Frontend Setup
 ```bash
 cd ../frontend
 
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 ```
 
 ---
 
-## 💻 Kullanım
+## 💻 Usage
 
-### Backend Server'ı Başlatın
+### Start the Backend Server
 ```bash
 cd backend
 python -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 
-Backend şu adreste çalışacak: **http://127.0.0.1:8000**
+Backend will run at: **http://127.0.0.1:8000**
 
-### Frontend Server'ı Başlatın
+### Start the Frontend Server
 ```bash
 cd frontend
 npm run dev
 ```
 
-Frontend şu adreste çalışacak: **http://localhost:5173**
+Frontend will run at: **http://localhost:5173**
 
-### 🎮 Demo'yu Test Edin
+### 🎮 Test the Demo
 
-1. Tarayıcınızda `http://localhost:5173` adresini açın
-2. Üst kısımda bulunan **Demo Senaryoları** bölümünden bir senaryo seçin
-3. Sistem otomatik olarak:
-   - Ağ metriklerini simüle edecek
-   - AI analizi yapacak
-   - Öneriler sunacak
-   - Gerekirse iş emri oluşturacak
+1. Open `http://localhost:5173` in your browser
+2. Select a scenario from the **Demo Scenarios** section at the top
+3. The system will automatically:
+   - Simulate network metrics
+   - Perform AI analysis
+   - Provide recommendations
+   - Create work orders if necessary
 
 ---
 
-## 📸 Ekran Görüntüleri
+## 📸 Screenshots
 
 <img width="1032" height="1274" alt="Screenshot 2026-01-11 200357" src="https://github.com/user-attachments/assets/40c0f7f5-7643-4e54-a947-955b1f50a77e" />
 
-### 🟢 İnternet Normal - Sağlıklı Bağlantı
-Sistem optimal performans gösterdiğinde yeşil renkli göstergelerle sağlıklı durumu bildirir. AI tanı sistemi ağın mükemmel durumda olduğunu onaylar.
+### 🟢 Normal Connection - Healthy Status
+When the system performs optimally, green indicators show healthy status. The AI diagnosis system confirms the network is in excellent condition.
 
-**Özellikler:**
-- ✅ İndirme: ~106 Mbps (Yeşil)
-- ✅ Yükleme: ~50 Mbps (Yeşil)
-- ✅ Ping: ~15 ms (Yeşil)
-- ✅ Paket Kaybı: %0 (Yeşil)
-- 🤖 AI Tanı: "Ağ metrikleri mükemmel durumda..."
-- 💡 Öneri: Herhangi bir işlem gerekmemektedir
+**Features:**
+- ✅ Download: ~106 Mbps (Green)
+- ✅ Upload: ~50 Mbps (Green)
+- ✅ Ping: ~15 ms (Green)
+- ✅ Packet Loss: 0% (Green)
+- 🤖 AI Diagnosis: "Network metrics are in excellent condition..."
+- 💡 Recommendation: No action required
 
 ---
 
 <img width="1012" height="1332" alt="Screenshot 2026-01-11 200933" src="https://github.com/user-attachments/assets/307f9fe9-c50e-461f-bf3d-9b1f6c84808a" />
 
-### 🟠 Modem Sorunu - Dikkat Gerekli
-Modem kaynaklı performans düşüşü tespit edildiğinde sistem turuncu/sarı renkte uyarı verir. AI, sorunun evdeki cihazlardan kaynaklandığını tespit eder.
+### 🟠 Modem Issue - Attention Required
+When modem-related performance issues are detected, the system displays orange/yellow warnings. AI identifies that the problem originates from home devices.
 
-**Özellikler:**
-- ⚠️ İndirme: ~14.74 Mbps (Turuncu)
-- ⚠️ Yükleme: ~5.4 Mbps (Turuncu)
-- ⚠️ Ping: ~78.6 ms (Turuncu)
-- ⚠️ Paket Kaybı: %4.56 (Turuncu)
-- 🤖 AI Tanı: "Modem seviyesinde bir sorun tespit edildi. İndirme hızı 14.74 Mbps ile normalin altında, ping değeri 78.6 ms ile yüksek ve %4.56 paket kaybı mevcut. Bu sorun evdeki modem veya cihazlarınızdan kaynaklanıyor, altyapı tarafında bir problem yok. Modem yeniden başlatılmalı ve eğer sorun devam ederse modem değişimi gerekebilir."
-- 💡 Öneriler:
-  - 🔌 Modemi kapatıp 30 saniye bekleyip tekrar açın
-  - 📡 WiFi yerine ethernet kablosu kullanmayı deneyin
-  - 🔄 Modem firmware güncellemesini kontrol edin
-  - ⚠️ Sorun devam ederse yeni modem talep edin
+**Features:**
+- ⚠️ Download: ~14.74 Mbps (Orange)
+- ⚠️ Upload: ~5.4 Mbps (Orange)
+- ⚠️ Ping: ~78.6 ms (Orange)
+- ⚠️ Packet Loss: 4.56% (Orange)
+- 🤖 AI Diagnosis: "Modem-level issue detected. Download speed is below normal at 14.74 Mbps, ping is high at 78.6 ms, and 4.56% packet loss is present. This issue stems from your modem or home devices, not infrastructure. Modem should be restarted, and if the problem persists, modem replacement may be necessary."
+- 💡 Recommendations:
+  - 🔌 Power cycle the modem (wait 30 seconds)
+  - 📡 Try using ethernet cable instead of WiFi
+  - 🔄 Check for modem firmware updates
+  - ⚠️ Request a new modem if issue persists
 
 ---
 
 <img width="2167" height="1328" alt="Screenshot 2026-01-11 201015" src="https://github.com/user-attachments/assets/1bab623d-e121-4a6c-80d1-3ecf4389453f" />
 
-### 🔴 Altyapı Arızası - Kritik Durum
-Fiber hasar veya altyapı kaynaklı ciddi problemlerde sistem kırmızı alarm verir. Otomatik olarak teknik ekip bilgilendirilir ve iş emri oluşturulur.
+### 🔴 Infrastructure Failure - Critical Status
+For fiber damage or serious infrastructure problems, the system triggers a red alert. Technical teams are automatically notified and work orders are created.
 
-**Özellikler:**
-- 🔴 İndirme: ~4.7 Mbps (Kırmızı)
-- 🔴 Yükleme: ~1.88 Mbps (Kırmızı)
-- 🔴 Ping: ~235.7 ms (Kırmızı)
-- 🔴 Paket Kaybı: %15.66 (Kırmızı)
-- 🤖 AI Tanı: "Altyapı tarafında ciddi sorun tespit edildi. Fiber kabloda hasar veya baz istasyonunda problem olabilir..."
-- 🔧 **Otomatik İş Emri Oluşturuldu:**
-  - ✅ Teknik ekip otomatik bilgilendirildi
-  - 🚗 Sorunu çözmek için ekip yola çıkarıldı
-  - ⏱️ Tahmini müdahale süresi: 2-4 saat
-  - 📱 Süreç hakkında SMS ile bilgilendirileceksiniz
+**Features:**
+- 🔴 Download: ~4.7 Mbps (Red)
+- 🔴 Upload: ~1.88 Mbps (Red)
+- 🔴 Ping: ~235.7 ms (Red)
+- 🔴 Packet Loss: 15.66% (Red)
+- 🤖 AI Diagnosis: "Serious infrastructure issue detected. Possible fiber cable damage or base station problems..."
+- 🔧 **Automatic Work Order Created:**
+  - ✅ Technical team automatically notified
+  - 🚗 Team dispatched to resolve the issue
+  - ⏱️ Estimated intervention time: 2-4 hours
+  - 📱 You will be notified via SMS about the process
 
 ---
 
 <img width="2105" height="1350" alt="Screenshot 2026-01-11 201043" src="https://github.com/user-attachments/assets/1ffa0cb9-1625-4f46-a358-66d7c003abf2" />
 
-### ⚫ Kesinti - Sorun Tespit Edildi
-Ağ tamamen veya neredeyse tamamen kullanılamaz durumda. Sistem acil müdahale gerektiğini bildirir.
+### ⚫ Outage - Issue Detected
+Network is completely or nearly completely unusable. System indicates emergency intervention is required.
 
-**Özellikler:**
-- 💀 İndirme: ~0.48 Mbps (Kritik)
-- 💀 Yükleme: ~0.1 Mbps (Kritik)
-- 💀 Ping: ~488.6 ms (Kritik)
-- 💀 Paket Kaybı: %38.41 (Kritik)
-- 🤖 AI Tanı: "Ağ bağlantısında ciddi sorunlar var. İnternet neredeyse tamamen kullanılamaz durumda..."
-- 🚨 **Acil Durum:** Teknik destek derhal çağrılmalı
+**Features:**
+- 💀 Download: ~0.48 Mbps (Critical)
+- 💀 Upload: ~0.1 Mbps (Critical)
+- 💀 Ping: ~488.6 ms (Critical)
+- 💀 Packet Loss: 38.41% (Critical)
+- 🤖 AI Diagnosis: "Severe network connectivity issues. Internet is almost completely unusable..."
+- 🚨 **Emergency:** Technical support must be contacted immediately
 
 ---
 
 <img width="2233" height="1325" alt="Screenshot 2026-01-11 201026" src="https://github.com/user-attachments/assets/a13c1cbf-3bdf-44ae-8bdf-ae469611d5f8" />
 
-### 🟣 Ağ Yoğunluğu - Trafik Fazla
-Yoğun kullanım saatlerinde ağda meydana gelen performans düşüşü. Geçici bir durum olduğu vurgulanır.
+### 🟣 Network Congestion - High Traffic
+Performance degradation during peak usage hours. Emphasizes this is a temporary condition.
 
-**Özellikler:**
-- 🟣 İndirme: ~35.68 Mbps (Sarı)
-- 🟣 Yükleme: ~16.49 Mbps (Sarı)
-- 🟣 Ping: ~58.9 ms (Sarı)
-- 🟣 Paket Kaybı: %3.03 (Sarı)
-- 🤖 AI Tanı: "Ağ yoğunluğu nedeniyle performans düşüşü gözlemleniyor. Bu durum genellikle akşam saatleri gibi yoğun kullanım dönemlerinde normaldir..."
-- ⏰ Öneri: Yoğun saatler dışında daha iyi performans alabilirsiniz
+**Features:**
+- 🟣 Download: ~35.68 Mbps (Yellow)
+- 🟣 Upload: ~16.49 Mbps (Yellow)
+- 🟣 Ping: ~58.9 ms (Yellow)
+- 🟣 Packet Loss: 3.03% (Yellow)
+- 🤖 AI Diagnosis: "Performance degradation due to network congestion. This is typically normal during peak hours like evenings..."
+- ⏰ Recommendation: Better performance available outside peak hours
 
 ---
 
 <img width="2152" height="1299" alt="Screenshot 2026-01-11 201003" src="https://github.com/user-attachments/assets/892d3a52-87b2-4949-80a8-094ae27f2a96" />
 
-### AI Tanı Sistemi - Çalışma Anı
-Yapay zeka modeli ağ metriklerini analiz ederken gösterilen ara ekran. Sistemin arka planda akıllı analiz yaptığını gösterir.
+### AI Diagnosis System - In Action
+Intermediate screen shown while the AI model analyzes network metrics. Demonstrates the intelligent analysis happening in the background.
 
-**AI Analiz Süreci:**
-1. Ağ metrikleri toplanıyor
-2. Veriler AI servisine gönderiliyor
-3. Akıllı analiz yapılıyor (problem kaynağı belirleniyor)
-4. Sonuçlar yorumlanıyor
-5. Uygulanabilir öneriler oluşturuluyor
+**AI Analysis Process:**
+1. Collecting network metrics
+2. Sending data to AI service
+3. Performing intelligent analysis (identifying problem source)
+4. Interpreting results
+5. Generating actionable recommendations
 
-> **Not:** Demo ortamında bazen AI servis hatası simüle edilir. Bu, gerçek sistemlerde hata yönetiminin nasıl olacağını gösterir.
+> **Note:** In demo environment, AI service errors are sometimes simulated to show how error management would work in real systems.
 
 ---
 
-## 📊 Gerçek Zamanlı Ağ Metrikleri
+## 📊 Real-Time Network Metrics
 
-Her senaryo için aşağıdaki temel metrikler hesaplanır ve gösterilir:
+The following core metrics are calculated and displayed for each scenario:
 
-### İndirme Hızı (Mbps)
+### Download Speed (Mbps)
 ```
-🟢 Mükemmel: > 50 Mbps
-🟡 Kabul Edilebilir: 10-50 Mbps
-🔴 Sorunlu: < 10 Mbps
-```
-
-### Yükleme Hızı (Mbps)
-```
-🟢 Mükemmel: > 20 Mbps
-🟡 Kabul Edilebilir: 5-20 Mbps
-🔴 Sorunlu: < 5 Mbps
+🟢 Excellent: > 50 Mbps
+🟡 Acceptable: 10-50 Mbps
+🔴 Poor: < 10 Mbps
 ```
 
-### Ping - Gecikme (ms)
+### Upload Speed (Mbps)
 ```
-🟢 Düşük: < 50 ms
-🟡 Orta: 50-150 ms
-🔴 Yüksek: > 150 ms
+🟢 Excellent: > 20 Mbps
+🟡 Acceptable: 5-20 Mbps
+🔴 Poor: < 5 Mbps
 ```
 
-### Paket Kaybı (%)
+### Ping - Latency (ms)
+```
+🟢 Low: < 50 ms
+🟡 Medium: 50-150 ms
+🔴 High: > 150 ms
+```
+
+### Packet Loss (%)
 ```
 🟢 Normal: < 2%
-🟡 Dikkat: 2-10%
-🔴 Kritik: > 10%
+🟡 Warning: 2-10%
+🔴 Critical: > 10%
 ```
 
-Metrikler, kullanıcı deneyimini artırmak amacıyla **renk kodları** ile sunulur. Bu sayede kullanıcı, teknik bilgiye sahip olmasa bile bağlantı durumunu hızlıca anlayabilir.
+Metrics are presented with **color codes** to enhance user experience. This allows users to quickly understand connection status even without technical knowledge.
 
 ---
 
-## ⚠️ Durum Tespiti ve Uyarı Mekanizması
+## ⚠️ Status Detection & Alert Mechanism
 
-Sistem, metrikleri analiz ederek genel bir durum mesajı üretir:
+The system analyzes metrics to generate an overall status message:
 
-| Durum | İkon | Açıklama |
+| Status | Icon | Description |
 |-------|------|----------|
-| **🟢 Bağlantı Sağlıklı** | ✅ | Tüm sistemler normal çalışıyor |
-| **🟡 Dikkat Gerekli** | ⚠️ | Performans düşüşü tespit edildi |
-| **🔴 Sorun Tespit Edildi** | ❌ | Ciddi problem var, müdahale gerekli |
+| **🟢 Connection Healthy** | ✅ | All systems operating normally |
+| **🟡 Attention Required** | ⚠️ | Performance degradation detected |
+| **🔴 Issue Detected** | ❌ | Serious problem, intervention required |
 
-Bu uyarılar, ağ kalitesinin genel özetini **tek bir bakışta** sunar ve kullanıcının hangi seviyede müdahale etmesi gerektiğini açıkça belirtir.
+These alerts provide an **at-a-glance** summary of network quality and clearly indicate the level of intervention needed.
 
 ---
 
-## 🔍 AI Tanı Sistemi Detayları
+## 🔍 AI Diagnosis System Details
 
-AI Tanı Sistemi, ağ metriklerini birlikte değerlendirerek **problemin olası kaynağını** belirlemeye çalışır.
+The AI Diagnosis System evaluates network metrics together to **identify the probable source** of the problem.
 
-### Analiz Kriterleri
+### Analysis Criteria
 
 ```python
 def analyze_network(metrics):
     """
-    AI, şu soruları yanıtlar:
-    1. Sorun evdeki cihazlardan mı kaynaklanıyor?
-    2. Altyapı tarafında bir problem var mı?
-    3. Hangi metrik en sorunlu?
-    4. Kullanıcı ne yapmalı?
+    AI answers these questions:
+    1. Is the issue from home devices?
+    2. Is there an infrastructure problem?
+    3. Which metric is most problematic?
+    4. What should the user do?
     """
 ```
 
-### Örnek AI Çıkarımları
+### Example AI Outputs
 
-**İnternet Normal Senaryosu:**
+**Normal Connection Scenario:**
 ```
-"Ağ metrikleri mükemmel durumda. İndirme hızı 100+ Mbps, 
-yükleme hızı 50 Mbps civarında, ping değeri çok düşük (15ms) 
-ve paket kaybı yok. Sisteminiz optimal performans gösteriyor. 
-Herhangi bir müdahale gerekmemektedir."
-```
-
-**Modem Sorunu Senaryosu:**
-```
-"Modem seviyesinde bir sorun tespit edildi. İndirme hızı 
-14.74 Mbps ile normalin altında, ping değeri 78.6 ms ile 
-yüksek ve %4.56 paket kaybı mevcut. Bu sorun evdeki modem 
-veya cihazlarınızdan kaynaklanıyor, altyapı tarafında bir 
-problem yok. Modem yeniden başlatılmalı ve eğer sorun devam 
-ederse modem değişimi gerekebilir."
+"Network metrics are in excellent condition. Download speed 100+ Mbps, 
+upload speed around 50 Mbps, ping very low (15ms), and no packet loss. 
+Your system is performing optimally. No intervention required."
 ```
 
-**Altyapı Arızası Senaryosu:**
+**Modem Issue Scenario:**
 ```
-"Altyapı tarafında ciddi sorun tespit edildi. Fiber kabloda 
-hasar veya baz istasyonunda problem olabilir. İndirme hızı 
-sadece 4.7 Mbps, ping 235 ms gibi çok yüksek ve %15.66 paket 
-kaybı var. Bu seviyedeki bir problem kullanıcı tarafından 
-çözülemez. Teknik ekip otomatik bilgilendirildi ve saha 
-ekibi yola çıkarıldı."
+"Modem-level issue detected. Download speed below normal at 14.74 Mbps, 
+ping high at 78.6 ms, and 4.56% packet loss present. This issue stems 
+from your modem or home devices, not infrastructure. Modem should be 
+restarted, and if problem persists, modem replacement may be necessary."
 ```
 
-> 💡 **Not:** Bazı demo senaryolarında, harici AI servisinin yanıt veremediği durumlar da özellikle gösterilerek **hata yönetimi senaryosu** simüle edilmiştir.
+**Infrastructure Failure Scenario:**
+```
+"Serious infrastructure issue detected. Possible fiber cable damage or 
+base station problem. Download speed only 4.7 Mbps, ping very high at 
+235 ms, and 15.66% packet loss. This level of problem cannot be resolved 
+by the user. Technical team has been automatically notified and field 
+team has been dispatched."
+```
+
+> 💡 **Note:** Some demo scenarios intentionally simulate situations where the external AI service cannot respond, demonstrating **error management scenarios**.
 
 ---
 
-## 💡 Önerilen Aksiyonlar
+## 💡 Recommended Actions
 
-Tanı sonucuna göre sistem, kullanıcıya **uygulanabilir öneriler** sunar:
+Based on diagnosis results, the system provides **actionable recommendations**:
 
-### 🏠 Evdeki Sorunlar İçin
-- 📡 WiFi yerine **Ethernet kablosu** kullanılması
-- 🔄 **Modem yeniden başlatılması** (30 saniye bekleme)
-- 🔧 Modem **firmware güncellemesinin** kontrol edilmesi
-- 📍 Router'ın daha iyi bir **konuma taşınması**
-- 🔌 Modem **donanım değişimi** önerisi
+### 🏠 For Home Device Issues
+- 📡 Use **Ethernet cable** instead of WiFi
+- 🔄 **Restart modem** (wait 30 seconds)
+- 🔧 Check for modem **firmware updates**
+- 📍 **Relocate router** to a better position
+- 🔌 Request **hardware replacement** if needed
 
-### 🏗️ Altyapı Sorunları İçin
-- ✅ Teknik ekip **otomatik bilgilendirildi**
-- 🚗 Saha ekibi **yola çıkarıldı**
-- ⏱️ Tahmini müdahale süresi: **2-4 saat**
-- 📱 Süreç hakkında **SMS ile bilgilendirileceksiniz**
-- 📞 Acil durumlarda **teknik destek hattı: 444 0 XXX**
+### 🏗️ For Infrastructure Issues
+- ✅ Technical team **automatically notified**
+- 🚗 Field team **dispatched**
+- ⏱️ Estimated intervention time: **2-4 hours**
+- 📱 You will be **notified via SMS** about progress
+- 📞 For emergencies: **Technical support hotline: 444 0 XXX**
 
-### ✅ Sorun Yoksa
-- 🎉 **Ağınız sağlıklı çalışıyor**
-- 🔍 Herhangi bir işlem **gerekmemektedir**
-- 🔄 Düzenli **bakımınızı sürdürün**
-- 📊 İhtiyaç duyulduğunda **tekrar test edin**
+### ✅ No Issues
+- 🎉 **Your network is healthy**
+- 🔍 **No action required**
+- 🔄 Continue **regular maintenance**
+- 📊 **Test again** when needed
 
-Bu bölüm, kullanıcının **ne yapması gerektiğini** net ve sade şekilde anlamasını sağlar.
+This section helps users clearly understand **what they need to do**.
 
 ---
 
-## 🎓 Demo Kapsamı ve Sınırlamalar
+## 🎓 Demo Scope & Limitations
 
-Bu proje bir **demo uygulamasıdır**.
+This project is a **demonstration application**.
 
-### ✅ Demo Özellikleri
-- Tüm ağ verileri **simüle edilmiştir**
-- Gerçek ağ ölçümü **yapılmaz**
-- Amaç, arayüz, analiz mantığı ve kullanıcı deneyimini **göstermektir**
+### ✅ Demo Features
+- All network data is **simulated**
+- No real network measurements are performed
+- Purpose is to demonstrate **interface, analysis logic, and user experience**
 
-### 🎯 Kullanım Alanları
-- 📚 **Eğitim** amaçlı kullanım
-- 🎤 **Sunum** ve demo gösterimleri
-- 🧪 **Kavramsal prototip** çalışmaları
-- 🎨 **UI/UX** tasarım referansı
-- 🏆 **Portfolyo** projesi
+### 🎯 Use Cases
+- 📚 **Educational** purposes
+- 🎤 **Presentations** and demos
+- 🧪 **Conceptual prototype** work
+- 🎨 **UI/UX** design reference
+- 🏆 **Portfolio** project
 
-### 🔮 Gerçek Ortam İçin Geliştirmeler
-Üretim ortamında kullanılması için eklenmesi gerekenler:
-- 📡 Gerçek ağ ölçüm araçları (ping, speedtest)
-- 🗄️ Veritaritabanı entegrasyonu (PostgreSQL, MongoDB)
-- 👥 Kullanıcı kimlik doğrulama sistemi
-- 📊 Geçmiş veri analizi ve trend takibi
-- 📱 Mobil uygulama (React Native)
-- 🔔 Push notification servisi
-- 📈 Detaylı raporlama ve dashboard
-- 🔐 API güvenliği ve rate limiting
+### 🔮 Production Enhancements
+For production use, the following should be added:
+- 📡 Real network measurement tools (ping, speedtest)
+- 🗄️ Database integration (PostgreSQL, MongoDB)
+- 👥 User authentication system
+- 📊 Historical data analysis and trend tracking
+- 📱 Mobile application (React Native)
+- 🔔 Push notification service
+- 📈 Detailed reporting and dashboards
+- 🔐 API security and rate limiting
 - 🌍 Multi-language support
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
+Contributions are welcome! Please follow these steps:
 
-1. Bu repository'yi **fork** edin
-2. Yeni bir **branch** oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi **commit** edin (`git commit -m 'feat: Add amazing feature'`)
-4. Branch'inizi **push** edin (`git push origin feature/amazing-feature`)
-5. Bir **Pull Request** açın
+1. **Fork** this repository
+2. Create a new **branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'feat: Add amazing feature'`)
+4. **Push** your branch (`git push origin feature/amazing-feature`)
+5. Open a **Pull Request**
 
 ---
 
-## Lisans
+## 📜 License
 
-Bu proje açık kaynak kodludur ve eğitim amaçlı kullanım için tasarlanmıştır.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
+
+### What This Means:
+
+- ✅ **Viewing & Learning**: You can view and study the code for educational purposes
+- ✅ **Attribution**: You must give appropriate credit to the original author
+- ❌ **No Commercial Use**: You cannot use this project for commercial purposes without permission
+- ❌ **No Derivatives**: You cannot distribute modified versions of this work
+- 📞 **Commercial Licensing**: For commercial use inquiries, contact the author
+
+See the [LICENSE](LICENSE) file for complete license text or visit the [Creative Commons website](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ---
 
 <div align="center">
 
-**Demo Amaçlı - Tüm veriler simüle edilmiştir**
+**© 2026 - For Demo Purposes - All Data is Simulated**
+
+Made with ❤️ for Telecommunications Network Optimization
 
 </div>
