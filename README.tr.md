@@ -30,7 +30,7 @@ Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan perfo
 - [Kullanım](#-kullanım)
 - [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Demo Kapsamı ve Sınırlamalar](#-demo-kapsamı-ve-sınırlamalar)
-- [⭐ Projeyi Yıldızlayın](#-projeyi-yıldızlayın)
+- [Projeyi Yıldızlayın](#-projeyi-yıldızlayın)
 - [Katkıda Bulunma](#-katkıda-bulunma)
 - [Geliştirici](#-geliştirici)
 - [Lisans](#-lisans)
@@ -41,9 +41,9 @@ Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan perfo
 
 Günümüzde telekomünikasyon ağlarında yaşanan performans problemleri, çoğunlukla **kullanıcı şikâyetleri sonrasında** fark edilmekte ve bu durum reaktif bir arıza yönetim sürecine yol açmaktadır. Bu yaklaşım:
 
-- ⏱️ Ortalama çözüm süresinin uzamasına
-- 🚗 Gereksiz saha müdahalelerine  
-- 😞 Müşteri memnuniyetinin azalmasına neden olmaktadır
+- Ortalama çözüm süresinin uzamasına
+- Gereksiz saha müdahalelerine  
+- Müşteri memnuniyetinin azalmasına neden olmaktadır
 
 **Proactive AI Network Agent** projesinin amacı:
 
@@ -84,21 +84,21 @@ Bu yapı, gerçek bir ağ izleme sisteminin **sadeleştirilmiş bir temsilidir**
 - Problemin kaynağını otomatik tespit (modem, altyapı, cihaz)
 - Türkçe dilinde anlaşılır açıklamalar
 
-### 📊 Gerçek Zamanlı Metrikler
+### Gerçek Zamanlı Metrikler
 - **İndirme Hızı** (Mbps) - Renk kodlu gösterim
 - **Yükleme Hızı** (Mbps) - Performans takibi
 - **Ping (Gecikme)** (ms) - Ağ gecikmesi ölçümü
 - **Paket Kaybı** (%) - Bağlantı kalitesi
 
-### 🎭 6 Demo Senaryosu
+### 6 Demo Senaryosu
 Her senaryo, farklı ağ problemlerini gerçekçi şekilde simüle eder
 
-### 💡 Akıllı Öneriler
+### Akıllı Öneriler
 - Soruna özel çözüm önerileri
 - Adım adım kullanıcı talimatları
 - Teknik ekip bilgilendirme sistemi
 
-### 🔧 Otomatik İş Emri
+### Otomatik İş Emri
 Altyapı sorunlarında sistem otomatik olarak:
 - Teknik ekibi bilgilendirir
 - İş emri oluşturur
@@ -197,7 +197,7 @@ npm run dev
 
 Frontend şu adreste çalışacak: **http://localhost:5173**
 
-### 🎮 Demo'yu Test Edin
+### Demo'yu Test Edin
 
 1. Tarayıcınızda `http://localhost:5173` adresini açın
 2. Üst kısımda bulunan **Demo Senaryoları** bölümünden bir senaryo seçin
@@ -415,25 +415,25 @@ ekibi yola çıkarıldı."
 
 Tanı sonucuna göre sistem, kullanıcıya **uygulanabilir öneriler** sunar:
 
-### 🏠 Evdeki Sorunlar İçin
-- 📡 WiFi yerine **Ethernet kablosu** kullanılması
-- 🔄 **Modem yeniden başlatılması** (30 saniye bekleme)
-- 🔧 Modem **firmware güncellemesinin** kontrol edilmesi
-- 📍 Router'ın daha iyi bir **konuma taşınması**
-- 🔌 Modem **donanım değişimi** önerisi
+### Evdeki Sorunlar İçin
+- WiFi yerine **Ethernet kablosu** kullanılması
+- **Modem yeniden başlatılması** (30 saniye bekleme)
+- Modem **firmware güncellemesinin** kontrol edilmesi
+- Router'ın daha iyi bir **konuma taşınması**
+- Modem **donanım değişimi** önerisi
 
-### 🏗️ Altyapı Sorunları İçin
-- ✅ Teknik ekip **otomatik bilgilendirildi**
-- 🚗 Saha ekibi **yola çıkarıldı**
-- ⏱️ Tahmini müdahale süresi: **2-4 saat**
-- 📱 Süreç hakkında **SMS ile bilgilendirileceksiniz**
-- 📞 Acil durumlarda **teknik destek hattı: 444 0 XXX**
+### Altyapı Sorunları İçin
+- Teknik ekip **otomatik bilgilendirildi**
+- Saha ekibi **yola çıkarıldı**
+- Tahmini müdahale süresi: **2-4 saat**
+- Süreç hakkında **SMS ile bilgilendirileceksiniz**
+- Acil durumlarda **teknik destek hattı: 444 0 XXX**
 
-### ✅ Sorun Yoksa
-- 🎉 **Ağınız sağlıklı çalışıyor**
-- 🔍 Herhangi bir işlem **gerekmemektedir**
-- 🔄 Düzenli **bakımınızı sürdürün**
-- 📊 İhtiyaç duyulduğunda **tekrar test edin**
+### Sorun Yoksa
+- **Ağınız sağlıklı çalışıyor**
+- Herhangi bir işlem **gerekmemektedir**
+- Düzenli **bakımınızı sürdürün**
+- İhtiyaç duyulduğunda **tekrar test edin**
 
 Bu bölüm, kullanıcının **ne yapması gerektiğini** net ve sade şekilde anlamasını sağlar.
 

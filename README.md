@@ -29,7 +29,7 @@ A proactive AIOps platform designed to detect and diagnose network performance i
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Screenshots](#-screenshots)
-- [⭐ Star This Project](#-star-this-project)
+- [Star This Project](#-star-this-project)
 - [Contributing](#-contributing)
 - [Author](#-author)
 - [License](#-license)
@@ -40,9 +40,9 @@ A proactive AIOps platform designed to detect and diagnose network performance i
 
 In modern telecommunications networks, performance issues are often discovered **after user complaints**, leading to a reactive incident management process. This approach results in:
 
-- ⏱️ Extended mean time to resolution (MTTR)
-- 🚗 Unnecessary field interventions  
-- 😞 Reduced customer satisfaction
+- Extended mean time to resolution (MTTR)
+- Unnecessary field interventions  
+- Reduced customer satisfaction
 
 **Proactive AI Network Agent** aims to:
 
@@ -83,21 +83,21 @@ This structure represents a **simplified version** of a real network monitoring 
 - Automatic root cause detection (modem, infrastructure, device)
 - Clear explanations in natural language
 
-### 📊 Real-Time Metrics
+### Real-Time Metrics
 - **Download Speed** (Mbps) - Color-coded display
 - **Upload Speed** (Mbps) - Performance tracking
 - **Ping (Latency)** (ms) - Network delay measurement
 - **Packet Loss** (%) - Connection quality indicator
 
-### 🎭 6 Demo Scenarios
+### 6 Demo Scenarios
 Each scenario realistically simulates different network problems
 
-### 💡 Smart Recommendations
+### Smart Recommendations
 - Issue-specific solution suggestions
 - Step-by-step user instructions
 - Technical team notification system
 
-### 🔧 Automated Work Orders
+### Automated Work Orders
 For infrastructure issues, the system automatically:
 - Notifies technical teams
 - Creates work orders
@@ -196,7 +196,7 @@ npm run dev
 
 Frontend will run at: **http://localhost:5173**
 
-### 🎮 Test the Demo
+### Test the Demo
 
 1. Open `http://localhost:5173` in your browser
 2. Select a scenario from the **Demo Scenarios** section at the top
@@ -410,25 +410,25 @@ team has been dispatched."
 
 Based on diagnosis results, the system provides **actionable recommendations**:
 
-### 🏠 For Home Device Issues
-- 📡 Use **Ethernet cable** instead of WiFi
-- 🔄 **Restart modem** (wait 30 seconds)
-- 🔧 Check for modem **firmware updates**
-- 📍 **Relocate router** to a better position
-- 🔌 Request **hardware replacement** if needed
+### For Home Device Issues
+- Use **Ethernet cable** instead of WiFi
+- **Restart modem** (wait 30 seconds)
+- Check for modem **firmware updates**
+- **Relocate router** to a better position
+- Request **hardware replacement** if needed
 
-### 🏗️ For Infrastructure Issues
-- ✅ Technical team **automatically notified**
-- 🚗 Field team **dispatched**
-- ⏱️ Estimated intervention time: **2-4 hours**
-- 📱 You will be **notified via SMS** about progress
-- 📞 For emergencies: **Technical support hotline: 444 0 XXX**
+### For Infrastructure Issues
+- Technical team **automatically notified**
+- Field team **dispatched**
+- ⏱Estimated intervention time: **2-4 hours**
+- You will be **notified via SMS** about progress
+- For emergencies: **Technical support hotline: 444 0 XXX**
 
-### ✅ No Issues
-- 🎉 **Your network is healthy**
-- 🔍 **No action required**
-- 🔄 Continue **regular maintenance**
-- 📊 **Test again** when needed
+### No Issues
+- **Your network is healthy**
+- **No action required**
+- Continue **regular maintenance**
+- **Test again** when needed
 
 This section helps users clearly understand **what they need to do**.
 
@@ -438,29 +438,29 @@ This section helps users clearly understand **what they need to do**.
 
 This project is a **demonstration application**.
 
-### ✅ Demo Features
+### Demo Features
 - All network data is **simulated**
 - No real network measurements are performed
 - Purpose is to demonstrate **interface, analysis logic, and user experience**
 
-### 🎯 Use Cases
-- 📚 **Educational** purposes
-- 🎤 **Presentations** and demos
-- 🧪 **Conceptual prototype** work
-- 🎨 **UI/UX** design reference
-- 🏆 **Portfolio** project
+### Use Cases
+- **Educational** purposes
+- **Presentations** and demos
+- **Conceptual prototype** work
+- **UI/UX** design reference
+- **Portfolio** project
 
-### 🔮 Production Enhancements
+### Production Enhancements
 For production use, the following should be added:
-- 📡 Real network measurement tools (ping, speedtest)
-- 🗄️ Database integration (PostgreSQL, MongoDB)
-- 👥 User authentication system
-- 📊 Historical data analysis and trend tracking
-- 📱 Mobile application (React Native)
-- 🔔 Push notification service
-- 📈 Detailed reporting and dashboards
-- 🔐 API security and rate limiting
-- 🌍 Multi-language support
+- Real network measurement tools (ping, speedtest)
+- Database integration (PostgreSQL, MongoDB)
+- User authentication system
+- Historical data analysis and trend tracking
+- Mobile application (React Native)
+- Push notification service
+- Detailed reporting and dashboards
+- API security and rate limiting
+- Multi-language support
 
 ---
 
@@ -486,7 +486,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## �‍💻 Author
+## 💻 Author
 
 <div align="center">
 
@@ -504,7 +504,7 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## �📜 License
+## 📜 License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
 
