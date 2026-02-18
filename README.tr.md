@@ -1,6 +1,8 @@
-[🇹🇷 Türkçe](README.tr.md) | [🇬🇧 English](README.md)
+🇹🇷 Türkçe | 🇬🇧 [English](README.md)
 
 ---
+
+<div align="center">
 
 # 🌐 AI Network Optimizer
 
@@ -12,6 +14,8 @@ Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan perfo
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-teal?style=for-the-badge&logo=fastapi)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=for-the-badge)
+
+</div>
 
 ---
 
@@ -26,7 +30,9 @@ Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan perfo
 - [Kullanım](#-kullanım)
 - [Ekran Görüntüleri](#-ekran-görüntüleri)
 - [Demo Kapsamı ve Sınırlamalar](#-demo-kapsamı-ve-sınırlamalar)
+- [⭐ Projeyi Yıldızlayın](#-projeyi-yıldızlayın)
 - [Katkıda Bulunma](#-katkıda-bulunma)
+- [Geliştirici](#-geliştirici)
 - [Lisans](#-lisans)
 
 ---
@@ -463,6 +469,16 @@ Bu proje bir **demo uygulamasıdır**.
 
 ---
 
+## ⭐ Projeyi Yıldızlayın
+
+Bu projeyi faydalı bulduysanız, lütfen GitHub'da yıldızlamayı düşünün! Bu, başkalarının projeyi keşfetmesine yardımcı olur ve geliştirmeye devam etmem için motivasyon sağlar.
+
+[![GitHub stars](https://img.shields.io/github/stars/emregumusai/AI-Network-Optimizer?style=social)](https://github.com/emregumusai/AI-Network-Optimizer/stargazers)
+
+Desteğiniz için çok teşekkürler! 🙏
+
+---
+
 ## 🤝 Katkıda Bulunma
 
 Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
@@ -475,7 +491,25 @@ Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
 
 ---
 
-## 📜 Lisans
+## �‍💻 Geliştirici
+
+<div align="center">
+
+### Yunus Emre Gumus
+
+**Yapay Zeka & Full-Stack Geliştirici | Ağ Optimizasyonu Meraklısı**
+
+[![GitHub](https://img.shields.io/badge/GitHub-emregumusai-181717?style=for-the-badge&logo=github)](https://github.com/emregumusai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-emregumusai-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/emregumusai/)
+[![Email](https://img.shields.io/badge/Email-yunusemregumusofc@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yunusemregumusofc@gmail.com)
+
+*İşbirlikleri, sorular veya geri bildirimler için benimle iletişime geçmekten çekinmeyin!*
+
+</div>
+
+---
+
+## �📜 Lisans
 
 Bu proje **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Lisansı** ile korunmaktadır.
 

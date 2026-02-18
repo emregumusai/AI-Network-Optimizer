@@ -1,6 +1,8 @@
-[🇹🇷 Türkçe](README.tr.md) | 🇬🇧 English
+🇹🇷 [Türkçe](README.tr.md) | 🇬🇧 English
 
 ---
+
+<div align="center">
 
 # 🌐 AI-Powered Self-Optimizing Network System
 
@@ -12,6 +14,8 @@ A proactive AIOps platform designed to detect and diagnose network performance i
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-teal?style=for-the-badge&logo=fastapi)
 ![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=for-the-badge)
+
+</div>
 
 ---
 
@@ -25,7 +29,9 @@ A proactive AIOps platform designed to detect and diagnose network performance i
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Screenshots](#-screenshots)
+- [⭐ Star This Project](#-star-this-project)
 - [Contributing](#-contributing)
+- [Author](#-author)
 - [License](#-license)
 
 ---
@@ -458,6 +464,16 @@ For production use, the following should be added:
 
 ---
 
+## ⭐ Star This Project
+
+If you find this project useful, please consider giving it a star on GitHub! It helps others discover the project and motivates continued development.
+
+[![GitHub stars](https://img.shields.io/github/stars/emregumusai/AI-Network-Optimizer?style=social)](https://github.com/emregumusai/AI-Network-Optimizer/stargazers)
+
+Your support is greatly appreciated! 🙏
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -470,7 +486,25 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📜 License
+## �‍💻 Author
+
+<div align="center">
+
+### Yunus Emre Gumus
+
+**AI & Full-Stack Developer | Network Optimization Enthusiast**
+
+[![GitHub](https://img.shields.io/badge/GitHub-emregumusai-181717?style=for-the-badge&logo=github)](https://github.com/emregumusai)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-emregumusai-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/emregumusai/)
+[![Email](https://img.shields.io/badge/Email-yunusemregumusofc@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yunusemregumusofc@gmail.com)
+
+*Feel free to reach out for collaborations, questions, or feedback!*
+
+</div>
+
+---
+
+## �📜 License
 
 This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
 
