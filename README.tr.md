@@ -13,7 +13,7 @@ Proactive AI Network Agent, telekomünikasyon erişim ağlarında yaşanan perfo
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-teal?style=for-the-badge&logo=fastapi)
-![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 </div>
 
@@ -511,17 +511,11 @@ Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
 
 ## �📜 Lisans
 
-Bu proje **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Lisansı** ile korunmaktadır.
+Bu proje **MIT Lisansı** ile lisanslanmıştır - ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
 
-### Bu Ne Anlama Geliyor:
+Telif hakkı bildirimi korunduğu sürece yazılımı ticari amaçlar dahil özgürce kullanabilir, değiştirebilir ve dağıtabilirsiniz.
 
-- ✅ **İnceleme ve Öğrenme**: Eğitim amaçlı kodu inceleyebilir ve öğrenebilirsiniz
-- ✅ **Atıf**: Orijinal yazara uygun şekilde atıfta bulunmalısınız
-- ❌ **Ticari Kullanım Yasak**: İzinsiz olarak ticari amaçla kullanamazsınız
-- ❌ **Türev Eserler Yasak**: Değiştirilmiş versiyonları dağıtamazsınız
-- 📞 **Ticari Lisans**: Ticari kullanım talepleriniz için yazar ile iletişime geçin
-
-Tam lisans metni için [LICENSE](LICENSE) dosyasına bakınız veya [Creative Commons web sitesini](https://creativecommons.org/licenses/by-nc-nd/4.0/) ziyaret edin.
+Katkıda bulunmak için [CONTRIBUTING.md](CONTRIBUTING.md), güvenlik açığı bildirmek için [SECURITY.md](SECURITY.md) dosyasına bakınız.
 
 ---
 

@@ -13,7 +13,7 @@ A proactive AIOps platform designed to detect and diagnose network performance i
 ![Python](https://img.shields.io/badge/Python-3.10+-green?style=for-the-badge&logo=python)
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-teal?style=for-the-badge&logo=fastapi)
-![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
 </div>
 
@@ -506,17 +506,11 @@ Contributions are welcome! Please follow these steps:
 
 ## 📜 License
 
-This project is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-### What This Means:
+You are free to use, modify, and distribute this software, including for commercial purposes, as long as the copyright notice is preserved.
 
-- ✅ **Viewing & Learning**: You can view and study the code for educational purposes
-- ✅ **Attribution**: You must give appropriate credit to the original author
-- ❌ **No Commercial Use**: You cannot use this project for commercial purposes without permission
-- ❌ **No Derivatives**: You cannot distribute modified versions of this work
-- 📞 **Commercial Licensing**: For commercial use inquiries, contact the author
-
-See the [LICENSE](LICENSE) file for complete license text or visit the [Creative Commons website](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). To report a vulnerability, see [SECURITY.md](SECURITY.md).
 
 ---
 
