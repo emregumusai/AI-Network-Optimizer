@@ -13,7 +13,7 @@ import traceback
 
 from network_simulator import get_simulated_metrics, calculate_network_status
 from gemini_service import analyze_network, generate_recommendations
-from scenarios import get_all_scenarios
+from scenarios import get_all_scenarios, get_scenario
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -41,6 +41,7 @@ class NetworkMetrics(BaseModel):
     ping_ms: float
     packet_loss_percent: float
     scenario: Optional[str] = None
+    issue_type: Optional[str] = None
 
 class WorkOrderCreate(BaseModel):
     issue_description: str
@@ -102,7 +103,11 @@ async def diagnose_network(metrics: NetworkMetrics):
         print(f"[DEBUG] Received diagnose request: {metrics}")
         
         # Convert to dict
-        metrics_dict = metrics.dict()
+        metrics_dict = metrics.model_dump()
+
+        # Frontend sends only the scenario id; derive the issue type from it
+        if not metrics_dict.get("issue_type") and metrics_dict.get("scenario"):
+            metrics_dict["issue_type"] = get_scenario(metrics_dict["scenario"])["issue_type"]
         
         print(f"[DEBUG] Calling analyze_network...")
         

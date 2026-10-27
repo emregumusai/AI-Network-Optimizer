@@ -13,8 +13,9 @@ load_dotenv()
 
 # Gemini API configuration
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_MODEL = "gemini-2.5-flash"
 
-print(f"[DEBUG] API Key loaded: {GEMINI_API_KEY[:10]}..." if GEMINI_API_KEY else "[ERROR] API Key not found!")
+print("[DEBUG] API Key loaded" if GEMINI_API_KEY else "[ERROR] API Key not found!")
 print(f"[DEBUG] Using Gemini 2.5 Flash via Google Genai SDK")
 
 # Initialize Gemini client
@@ -64,12 +65,12 @@ Cevabını doğrudan ver, başlık veya ek açıklama ekleme.
 """
     
     try:
-        print(f"[DEBUG] Sending request to Gemini 1.5 Flash...")
+        print(f"[DEBUG] Sending request to Gemini 2.5 Flash...")
         print(f"[DEBUG] Metrics: {metrics}")
         
         # Send request to Gemini using SDK
         response = client.models.generate_content(
-            model="gemini-1.5-flash",
+            model=GEMINI_MODEL,
             contents=prompt
         )
         
@@ -85,7 +86,7 @@ Cevabını doğrudan ver, başlık veya ek açıklama ekleme.
         return {
             "diagnosis": diagnosis_text,
             "issue_type": issue_type,
-            "ai_provider": "Gemini 1.5 Flash",
+            "ai_provider": "Gemini 2.5 Flash",
             "success": True
         }
         
